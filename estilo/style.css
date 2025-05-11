@@ -9,7 +9,6 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
 }
 
 body{
@@ -21,12 +20,13 @@ body{
 main {
     position: relative;
     height: 100vh;
+    width: 100vw;
 }
 
 section#celular {
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
 
 
@@ -45,12 +45,13 @@ iframe#tela{
 }
 
 section#redes {
-    text-align: right;
+    text-align: center right;
 }
 
 section#redes img{
     width: 45px;
     margin: 5px;
+    margin-left: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
